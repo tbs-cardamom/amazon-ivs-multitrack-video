@@ -74,7 +74,7 @@ nlohmann::json generate_postdata(const char *stream_key, const Tracks &tracks) {
                     }
                 },
                 "client" : {
-                    "name" : "ertmp-multitrack c++ sample",
+                    "name" : "e-rtmp-multitrack c++ sample",
                     "supported_codecs" : [ "h264" ],
                     "version" : "1.0"
                 },
@@ -177,7 +177,7 @@ extern "C" bool query_getclientconfiguration(Tracks *tracks,
         curl_slist_append(nullptr, "Content-Type: application/json"),
         curl_slist_free_all);
     hs.reset(curl_slist_append(hs.release(),
-                               "User-Agent: ertmp-multitrack c++ sample"));
+                               "User-Agent: e-rtmp-multitrack c++ sample"));
     curl_easy_setopt(curl.get(), CURLOPT_HTTPHEADER, hs.get());
 
     av_log(NULL, AV_LOG_INFO, "sending: %s\n", postdata_string.c_str());

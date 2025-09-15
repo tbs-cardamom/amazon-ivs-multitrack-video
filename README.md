@@ -3,7 +3,7 @@
 Samples in multiple programming languages demonstrate how to use the Enhanced RTMP Multitrack Video feature to stream multiple video tracks to an Amazon IVS Stage or Channel.
 
 >[!CAUTION]
-> **Use at Your Own Risk: This is a starting code sample designed to help developers get started with basic functionality. It is not production-ready and will require additional development work to be suitable for production use. This sample is not intended to bridge that gap, it is only meant to demonstrate the usage of ERTMP multitrack from FFmpeg to stream to Amazon IVS Real-Time.**
+> **Use at Your Own Risk: This is a starting code sample designed to help developers get started with basic functionality. It is not production-ready and will require additional development work to be suitable for production use. This sample is not intended to bridge that gap, it is only meant to demonstrate the usage of E-RTMP multitrack from FFmpeg to stream to Amazon IVS Real-Time.**
 >It is **not** intended for production use. Its primary goal is to help you understand the concepts and capabilities of Amazon IVS. By using this solution, you understand and accept its risks and limitations.
 >
 > While functional, users should be aware of the following considerations:
