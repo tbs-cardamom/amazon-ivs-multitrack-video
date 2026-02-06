@@ -3,3 +3,5 @@
 **/pkg/mod/cache/*
 **/pkg/sumdb/*
 !devcontainer-files/jrottenberg-ffmpeg/build_source.sh
+
+.DS_Store
