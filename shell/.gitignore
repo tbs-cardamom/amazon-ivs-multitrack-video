@@ -2,3 +2,4 @@
 *.flv
 
 .DS_Store
+.env
