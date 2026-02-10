@@ -181,4 +181,4 @@ WORKDIR /app
 COPY multi-track-video-s3.sh .
 RUN chmod 755 multi-track-video-s3.sh
 
-CMD /app/multi-track-video-s3.sh --in $FLV_INPUT --out $RTMP_ENDPOINT
+CMD /app/multi-track-video-s3.sh stream-eflv --in $FLV_INPUT --rtmp "rtmps://${RTMP_ENDPOINT}/app/${STREAM_KEY}"
